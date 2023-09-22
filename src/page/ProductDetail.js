@@ -11,7 +11,7 @@ const ProductDetail = () => {
     let data = await response.json();
     setProduct(data);
   };
-  useEffect(() => {
+  useEffect(() => { 
     getProductDetail();
   }, []);
   return (
